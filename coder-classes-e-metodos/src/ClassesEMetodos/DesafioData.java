@@ -7,9 +7,11 @@ public class DesafioData {
 
 
     DesafioData() {
-       this.dia = 1;
-       this.mes = 1;
-       this.ano= 1970;
+//       this.dia = 1;
+//       this.mes = 1;
+//       this.ano= 1970;
+
+        this(1,1,1970);
     }
 
     public DesafioData(int dia, int mes, int ano) {
