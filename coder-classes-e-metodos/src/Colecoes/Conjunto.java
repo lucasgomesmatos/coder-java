@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class Conjunto {
     public static void main(String[] args) {
-        HashSet conjunto = new HashSet();
+        HashSet conjunto = new HashSet<>();
 
         conjunto.add(1.2);
         conjunto.add(true);
