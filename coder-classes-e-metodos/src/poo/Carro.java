@@ -2,7 +2,11 @@ package poo;
 
 public class Carro {
 
-    Motor motor = new Motor();
+    Motor motor;
+
+    Carro() {
+        this.motor = new Motor(this);
+    }
 
     void acelerar() {
         if (motor.fatorInjecao < 2.6)
