@@ -1,4 +1,6 @@
-package poo;
+package poo.umPraMuitos;
+
+import poo.umPraMuitos.Compra;
 
 public class Item {
 

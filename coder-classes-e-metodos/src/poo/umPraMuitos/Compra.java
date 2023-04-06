@@ -1,4 +1,4 @@
-package poo;
+package poo.umPraMuitos;
 
 import java.util.ArrayList;
 

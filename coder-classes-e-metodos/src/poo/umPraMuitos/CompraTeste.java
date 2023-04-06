@@ -1,4 +1,4 @@
-package poo;
+package poo.umPraMuitos;
 
 public class CompraTeste {
     public static void main(String[] args) {

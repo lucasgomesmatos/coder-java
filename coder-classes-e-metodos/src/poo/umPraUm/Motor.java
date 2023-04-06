@@ -1,4 +1,4 @@
-package poo;
+package poo.umPraUm;
 
 public class Motor {
     Carro carro;

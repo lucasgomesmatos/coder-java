@@ -1,4 +1,4 @@
-package poo;
+package poo.umPraUm;
 
 public class CarroTeste {
 
