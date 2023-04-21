@@ -3,11 +3,11 @@ package poo.heranca;
 public class Jogo {
 
     public static void main(String[] args) {
-        var j1 =new Jogador();
+        var j1 =new Heroi();
         j1.x = 10;
         j1.y = 10;
 
-        var j2 =new Jogador();
+        var j2 =new Heroi();
         j2.x = 10;
         j2.y = 11;
 
