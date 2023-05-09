@@ -7,6 +7,13 @@ public class Jogador {
 
     int vida = 100;
 
+
+
+    Jogador(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
     boolean atacar(Jogador oponente) {
 
         int deltaX = Math.abs(x - oponente.x);

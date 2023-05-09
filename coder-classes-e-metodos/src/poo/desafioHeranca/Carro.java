@@ -4,12 +4,25 @@ public class Carro {
 
     int velocidade;
 
+    final int VELOCIDADE_MAXIMA;
+
+    final int delta = 5;
+
+    Carro(int velocidadeMaxima) {
+        this.VELOCIDADE_MAXIMA = velocidadeMaxima;
+    }
+
     void acelerar() {
-        velocidade += 5;
+
+        if ((velocidade + delta) > VELOCIDADE_MAXIMA) {
+            velocidade = VELOCIDADE_MAXIMA;
+        }
+
+        velocidade += delta;
     }
 
     void freiar() {
-        if (velocidade >= 5) velocidade -= 5;
+        if (velocidade >= delta) velocidade -= delta;
         else velocidade = 0;
     }
 
