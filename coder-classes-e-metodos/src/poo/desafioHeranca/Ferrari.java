@@ -8,6 +8,7 @@ public class Ferrari extends Carro {
 
     Ferrari(int velocidadeMaxima) {
         super(velocidadeMaxima);
+        this.delta = 15;
     }
 
     @Override

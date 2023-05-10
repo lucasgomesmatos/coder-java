@@ -6,7 +6,7 @@ public class Carro {
 
     final int VELOCIDADE_MAXIMA;
 
-    final int delta = 5;
+    int delta = 5;
 
     Carro(int velocidadeMaxima) {
         this.VELOCIDADE_MAXIMA = velocidadeMaxima;
