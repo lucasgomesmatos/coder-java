@@ -1,32 +1,28 @@
-package poo.desafioHeranca;
+package poo.desafioHeranca.desafio;
 
 public class Carro {
 
-    int velocidade;
+    protected int velocidade;
+    private final int VELOCIDADE_MAXIMA;
+    protected int delta = 5;
 
-    final int VELOCIDADE_MAXIMA;
-
-    int delta = 5;
-
-    Carro(int velocidadeMaxima) {
+    protected Carro(int velocidadeMaxima) {
         this.VELOCIDADE_MAXIMA = velocidadeMaxima;
     }
 
-    void acelerar() {
-
+    public void acelerar() {
         if ((velocidade + delta) > VELOCIDADE_MAXIMA) {
             velocidade = VELOCIDADE_MAXIMA;
         }
-
         velocidade += delta;
     }
 
-    void freiar() {
+    public void freiar() {
         if (velocidade >= delta) velocidade -= delta;
         else velocidade = 0;
     }
 
-    void velocidadeAtual() {
+    public void velocidadeAtual() {
         System.out.println("Velocidade atual é " + velocidade);
     }
 

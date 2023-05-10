@@ -1,18 +1,18 @@
-package poo.desafioHeranca;
+package poo.desafioHeranca.desafio;
 
 public class Ferrari extends Carro {
 
-    Ferrari() {
-        this(315);
+    public Ferrari() {
+        super(340);
     }
 
-    Ferrari(int velocidadeMaxima) {
+    public Ferrari(int velocidadeMaxima) {
         super(velocidadeMaxima);
         this.delta = 15;
     }
 
     @Override
-    void acelerar() {
+    public void acelerar() {
         velocidade += 15;
     }
 }
