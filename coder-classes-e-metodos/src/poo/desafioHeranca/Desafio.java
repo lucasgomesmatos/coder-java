@@ -16,6 +16,7 @@ public class Desafio {
         ferrari.acelerar();
         civic.acelerar();
 
+        ferrari.ligarTudo();
         ferrari.velocidadeAtual();
         civic.velocidadeAtual();
     }
