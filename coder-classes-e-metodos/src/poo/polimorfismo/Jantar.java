@@ -13,6 +13,7 @@ public class Jantar {
 
         convidado.comer(a1);
         convidado.comer(f2);
+        convidado.comer(s3);
         System.out.println(convidado.getPeso());
 
     }
