@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/coder-java.iml" filepath="$PROJECT_DIR$/coder-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambdas/lambdas.iml" filepath="$PROJECT_DIR$/lambdas/lambdas.iml" />
     </modules>
   </component>
 </project>
