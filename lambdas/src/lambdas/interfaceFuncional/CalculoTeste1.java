@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.interfaceFuncional;
 
 public class CalculoTeste1 {
     public static void main(String[] args) {
