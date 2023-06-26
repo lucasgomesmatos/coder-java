@@ -12,5 +12,6 @@ public class Funcao {
 
         String resultadoFinal = parOuImpar.andThen(resultado).apply(32);
         System.out.println(resultadoFinal);
+        System.out.println();
     }
 }
