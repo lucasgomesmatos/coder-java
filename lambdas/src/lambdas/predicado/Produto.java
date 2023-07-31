@@ -1,5 +1,7 @@
 package lambdas.predicado;
 
+import java.util.function.Function;
+
 public class Produto {
     final String nome;
     final  double preco;
@@ -31,4 +33,7 @@ public class Produto {
         this.preco = preco;
         this.desconto = desconto;
     }
+
+
+
 }
