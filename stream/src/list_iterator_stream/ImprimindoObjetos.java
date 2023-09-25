@@ -15,10 +15,9 @@ public class ImprimindoObjetos {
         }
 
         System.out.println("\nUsando Iterator...");
-        Iterator<String> iterator = aprovados.iterator();
 
-        while (iterator.hasNext()){
-            System.out.println(iterator.next());
+        for (String aprovado : aprovados) {
+            System.out.println(aprovado);
         }
 
         System.out.println("\nUsando Stream...");
