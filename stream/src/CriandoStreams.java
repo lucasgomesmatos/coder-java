@@ -19,11 +19,9 @@ public class CriandoStreams {
         Arrays.stream(maisLangs).forEach(print);
 
         Arrays.stream(maisLangs, 1, 2).forEach(print);
-
         List<String> outrasLang = Arrays.asList("C", " C++", " Kotlin\n");
         outrasLang.stream().forEach(print);
         outrasLang.parallelStream().forEach(print);
-
         Stream.iterate(0, n -> n + 1).forEach(print);
     }
 }
